@@ -1,0 +1,29 @@
+package ObjectOutputStream;
+
+import java.io.FileOutputStream;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		Student male ;
+		
+		String name = "Tom and Jerry";
+		String id = "Cartoon";
+		int age = 20;
+		
+		male = new Student(name,age);
+		
+		FileOutputStream fout = null;
+		
+		try {
+			
+			fout = new FileOutputStream("student.txt");
+			
+		} catch (Exception e) {
+			System.out.println("There is an Error Found in " + e);
+		}
+		
+	}
+
+}
