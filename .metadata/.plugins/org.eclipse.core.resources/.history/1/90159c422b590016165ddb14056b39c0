@@ -1,0 +1,8 @@
+package ThreadBasic;
+
+import java.awt.FontFormatException;
+
+public class ImportThread extends Thread{
+	
+	
+}

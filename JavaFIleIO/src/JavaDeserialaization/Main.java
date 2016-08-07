@@ -2,6 +2,7 @@ package JavaDeserialaization;
 
 import java.io.FileInputStream;
 import java.io.ObjectInputStream;
+import java.awt.FontFormatException;
 import java.io.*;
 
 public class Main {

@@ -1,0 +1,20 @@
+package threadSleep;
+
+public class TestThread extends Thread{
+
+	public void ruu(){
+		
+		for(int i=1; i<=5; i++){
+			
+			try {
+				Thread.sleep(500);	
+			} 
+			
+			catch (InterruptedException e) {
+				System.out.println(e));
+			}
+		}
+		
+	}
+	
+}
