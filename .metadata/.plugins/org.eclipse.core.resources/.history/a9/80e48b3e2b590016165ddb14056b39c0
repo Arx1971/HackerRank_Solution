@@ -1,7 +1,0 @@
-package ThreadBasic;
-
-public class ImportThread extends Thread {
-
-	
-	
-}

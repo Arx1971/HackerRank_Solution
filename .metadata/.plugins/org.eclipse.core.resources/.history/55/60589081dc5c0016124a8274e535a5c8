@@ -1,9 +1,0 @@
-package threadSleep;
-
-public class Main {
-	
-	public static void main(String args[]){
-		
-	}
-	
-}

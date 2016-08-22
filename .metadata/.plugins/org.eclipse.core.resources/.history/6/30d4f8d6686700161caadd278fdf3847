@@ -1,0 +1,28 @@
+package encapsulation;
+
+public class StudentClass {
+		
+	public String name;
+	public String address;
+	private String id;
+	public int age;
+	
+	
+	public StudentClass(String name,String address,int age){
+		
+		this.age = age;
+		this.name = name;
+		this.address = address;
+		
+	}
+	
+	public boolean getId() {
+		return id.equals("12345") ? true : false; /// ternary operator
+	}
+	public void setId(String id) {
+		this.id = id;
+	}
+	
+	
+	
+}

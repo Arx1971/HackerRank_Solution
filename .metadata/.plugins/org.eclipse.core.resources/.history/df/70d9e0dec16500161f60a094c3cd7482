@@ -1,0 +1,22 @@
+package encapsulation;
+
+public class StudentGrade {
+	
+	public double quiz;
+	public double midterm;
+	public double project;
+	public double finalexam;
+	
+	private String coursenumber;
+	
+	public StudentGrade(double quiz,double midterm,double project,double finalexam){
+		
+		this.quiz = quiz;
+		this.finalexam = finalexam;
+		this.midterm = midterm;
+		this.project = project;
+		
+	}
+	
+	
+}
