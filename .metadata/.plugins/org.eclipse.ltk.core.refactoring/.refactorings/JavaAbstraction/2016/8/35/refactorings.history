@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;abstraction.AbstractClass&apos; to &apos;EmployeeClass&apos;&#x0A;- Original project: &apos;JavaAbstraction&apos;&#x0A;- Original element: &apos;abstraction.AbstractClass&apos;&#x0A;- Renamed element: &apos;abstraction.EmployeeClass&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;AbstractClass&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;abstraction{AbstractClass.java[AbstractClass" matchStrategy="1" name="EmployeeClass" qualified="false" references="true" similarDeclarations="false" stamp="1471888531714" textual="false" version="1.0"/>
+</session>
