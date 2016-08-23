@@ -28,8 +28,7 @@ public class StudentGrade {
 	
 	public String getGrade(){
 		
-		double total = quiz+midterm+finalexam+project;
-		total = total*0.25;
+		double total =  (quiz+midterm+finalexam+project)*0.25;
 		
 		if(total>90)
 			return "A";
