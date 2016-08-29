@@ -1,0 +1,32 @@
+package practice_1;
+
+public class CaclPi {
+	
+	public static void main(String args[]){
+		
+		
+		
+	}
+	
+}
+class Mythread extends Thread{
+	
+	boolean negetive = true;
+	
+	double pi;
+	
+	public void run(){
+		
+		for(int i=3; i<10000; i+=2){
+			
+			if(negetive)
+				pi -=(1.0/i);
+			else 
+				pi +=(1.0/i);
+				
+			negetive = !negetive;
+				
+		}
+	}
+	
+}
