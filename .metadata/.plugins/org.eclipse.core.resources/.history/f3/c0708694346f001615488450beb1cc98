@@ -1,0 +1,10 @@
+package javaDaimoneThread;
+
+public class TestDaemonThread {
+
+	public void run(){
+		if(Thread.currentThread().isDaemon())
+			System.out.println("Daemon Thread is Working:");
+	}
+	
+}

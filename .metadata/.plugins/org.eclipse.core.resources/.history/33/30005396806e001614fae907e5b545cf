@@ -1,0 +1,13 @@
+package ThreadJoin;
+
+public class Main {
+
+	public static void main(String args[]){
+		
+		TestJoinMethod t1 = new TestJoinMethod();
+		TestJoinMethod t2 = new TestJoinMethod();
+		TestJoinMethod t3 = new TestJoinMethod();
+		
+	}
+	
+}
