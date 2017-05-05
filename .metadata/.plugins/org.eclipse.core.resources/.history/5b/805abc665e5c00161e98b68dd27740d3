@@ -1,0 +1,23 @@
+package filePractice;
+
+import java.io.*;
+
+public class Main {
+	
+	public static void main(String args[])throws IOException{
+		
+		FileInputStream fin = null;
+		FileOutputStream fout = null;
+		
+		try{
+			
+			fout = new FileOutputStream("home:\\rahin\\Desktop\\newFile.txt");
+			
+		}
+		catch (Exception e) {
+			// TODO: handle exception
+		}
+		
+	}
+	
+}

@@ -1,0 +1,13 @@
+package abstraction;
+
+public abstract class EmployeeClass {
+	
+	public String name;
+	public String id;
+	public String address;
+	public int age;
+	
+	
+	
+	
+}

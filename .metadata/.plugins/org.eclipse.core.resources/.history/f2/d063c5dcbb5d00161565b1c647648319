@@ -1,0 +1,12 @@
+package threadPriority;
+
+public class OurThread extends Thread{
+	
+	public void run(){
+		
+		System.out.println("The 1st Priority : " + Thread.currentThread().getName());
+		System.out.println("The 2nd Priority : " + Thread.currentThread().getName());
+		
+	}
+	
+}

@@ -1,0 +1,13 @@
+package abstraction;
+
+public class ManagerClass extends EmployeeClass {
+
+	public ManagerClass(){
+		
+	}
+	
+	public ManagerClass(String name,String address,String id, int age){
+		super(name, id, address, age);
+	}
+	
+}

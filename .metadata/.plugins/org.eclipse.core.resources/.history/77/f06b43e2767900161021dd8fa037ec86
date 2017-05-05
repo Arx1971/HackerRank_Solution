@@ -1,0 +1,22 @@
+package ThreadExtendPractice;
+
+public class Main {
+	
+	public static void main(String [] args) throws InterruptedException{
+	
+		SqureThread ot1 = new SqureThread();
+		
+		SqureThread ot2 = new SqureThread();
+		
+		ot1.start();
+		try {
+			
+		} catch (Exception e) {
+			// TODO: handle exception
+		}
+		ot2.start();
+		
+		
+	}
+	
+}

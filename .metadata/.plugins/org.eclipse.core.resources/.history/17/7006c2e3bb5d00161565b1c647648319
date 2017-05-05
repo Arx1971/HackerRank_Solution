@@ -1,0 +1,26 @@
+package threadPriority;
+
+import nameThatThread.ourThread;
+
+public class Main {
+	
+	/**Each thread have a priority. Priorities are represented by a number 
+	 between 1 and 10.In most cases, thread schedular 
+	 schedules the threads according to their priority 
+	(known as preemptive scheduling). But it is not guaranteed because 
+	it depends on JVM specification that which scheduling it chooses.**/
+	
+//	public static int MIN_PRIORITY - level is 1.
+//	public static int NORM_PRIORITY - default and level is 5.
+//	public static int MAX_PRIORITY - level is 10.
+	
+	public static void main(String args[]){
+		
+		OurThread ot1 = new OurThread();
+		OurThread ot2 = new OurThread();
+		
+		ot1.start();
+		ot2.start();
+	}
+	
+}	

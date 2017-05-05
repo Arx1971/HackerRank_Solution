@@ -1,0 +1,13 @@
+package ThreadExtendPractice;
+
+public class Main {
+	
+	public static void main(String [] args){
+	
+		ourThread ot = new ourThread();
+		
+		ot.start();
+		
+	}
+	
+}

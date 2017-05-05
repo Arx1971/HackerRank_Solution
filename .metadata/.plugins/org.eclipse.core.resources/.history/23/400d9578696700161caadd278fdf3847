@@ -1,0 +1,17 @@
+package encapsulation;
+
+public class Main {
+		
+	public static void main(String args[]){
+	
+		
+		StudentClass male = new StudentClass();
+		
+		String std_name;
+		String std_address;
+		String std_id;
+		int age;
+		
+	}
+	
+}

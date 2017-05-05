@@ -1,0 +1,38 @@
+package ThreadExtendPractice;
+
+public class Main {
+
+	public static void main(String[] args) throws InterruptedException {
+
+		SqureThread ot1 = new SqureThread();
+
+//		SqureThread ot2 = new SqureThread();
+		
+		TriangleThread tt1 = new TriangleThread();
+
+		ot1.start();
+		try {
+
+			Thread.sleep(1000);
+
+		} catch (Exception e) {
+			// TODO: handle exception
+			System.err.println("There is an Error: ");
+			
+		}
+//		ot2.start();
+//		try {
+//
+//			Thread.sleep(1000);
+//
+//		} catch (Exception e) {
+//			// TODO: handle exception
+//			System.err.println("There is an Error: ");
+//			
+//		}
+		tt1.start();
+		
+
+	}
+
+}

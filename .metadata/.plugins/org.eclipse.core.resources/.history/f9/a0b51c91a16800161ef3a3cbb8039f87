@@ -1,0 +1,11 @@
+package abstraction;
+
+public class Main {
+
+	public static void main(String args[]){
+		
+		EmployeeClass crew = new CrewMember() ;
+		
+	}
+	
+}
