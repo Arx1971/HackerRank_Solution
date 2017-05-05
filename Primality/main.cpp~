@@ -5,7 +5,7 @@
 
 using namespace std;
 
-const int N = 1000000009;
+const int N = 10000010;
 bool sieve[N];
 
 int main(){

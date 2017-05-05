@@ -55,7 +55,7 @@ void bfs(int src){
 int main(){
 	
 	freopen("input2.txt", "r", stdin);
-	freopen("out.txt", "w",stdout);
+	//freopen("out.txt", "w",stdout);
 	int test_case,edge;
 	
 	cin >> test_case;
