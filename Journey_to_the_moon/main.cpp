@@ -59,7 +59,6 @@ int main(){
 			counter = dfs(i,node);
 			holder.push_back(counter);
 		}
-		//else continue;
 		
 	}
 	
