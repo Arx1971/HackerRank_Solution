@@ -5,7 +5,7 @@
 
 using namespace std;
 
-const int N = 100000005;
+const int N = 100005;
 vector <int> graph[N];
 bool visited[N];
 int level[N];
@@ -59,6 +59,7 @@ int main(){
 			counter = dfs(i,node);
 			holder.push_back(counter);
 		}
+		//else continue;
 		
 	}
 	
